@@ -82,6 +82,8 @@ nav {
 .title-container button:hover {
   background-color: #2b5dac;
   cursor: pointer;
+  transform: scale(1.005);
+  transition: all 0.3s linear;
 }
 
 .hero-image {
@@ -171,4 +173,47 @@ nav {
   font-weight: 700;
   font-style: normal;
   margin-right: 64px;
+}
+
+#cta {
+  padding: 0 10%;
+  margin-bottom: 64px;
+  color: #f9faf8;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 48px 0;
+}
+
+.cta-container h2 {
+  margin: 0;
+}
+
+.cta-container p {
+  margin: 0;
+  color: #e5e7eb;
+}
+
+.cta-container button {
+  width: fit-content;
+  padding: 8px 32px;
+  border: none;
+  background-color: #3882f6;
+  border: solid 3px #f9faf8;
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.cta-container button:hover {
+  cursor: pointer;
+  background-color: #2b5dac;
+  transform: scale(1.005);
+  transition: all 0.3s linear;
 }
