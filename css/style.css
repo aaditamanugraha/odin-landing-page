@@ -36,7 +36,8 @@ nav {
 
 #hero {
   display: flex;
-  padding: 0 10%;
+  padding: 64px 10%;
+  margin-bottom: 64px;
   height: 500px;
   background-color: #1f2937;
 }
@@ -53,11 +54,34 @@ nav {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0 0 16px;
 }
 
 .title p {
   font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 400;
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.title-container button {
+  width: fit-content;
+  padding: 8px 32px;
+  border: none;
+  background-color: #3882f6;
   color: #f9faf8;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.title-container button:hover {
+  background-color: #2b5dac;
+  cursor: pointer;
 }
 
 .hero-image {
@@ -70,4 +94,55 @@ nav {
   height: 100%;
   transform: rotate();
   object-fit: cover;
+}
+
+#news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+  margin-bottom: 64px;
+}
+
+#news h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 0;
+}
+
+.news-container {
+  display: flex;
+  gap: 32px;
+}
+
+.news-content {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1f2937;
+}
+
+.news-content:hover {
+  cursor: pointer;
+  transform: scale(1.005);
+  transition: all 0.3s linear;
+  background-color: #2d3847;
+}
+
+.news-content h3 {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.news-content p {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+.news-content img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
 }
