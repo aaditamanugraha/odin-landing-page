@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -108,7 +108,7 @@ nav {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  margin-top: 0;
+  margin: 0 0 64px;
 }
 
 .news-container {
@@ -145,4 +145,30 @@ nav {
   height: 200px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+#testimonial {
+  padding: 128px 10%;
+  margin-bottom: 64px;
+  background-color: #e5e7eb;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.testimonial-container p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 0 16px;
+}
+
+.testimonial-container cite {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 64px;
 }
